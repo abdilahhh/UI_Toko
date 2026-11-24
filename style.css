@@ -5,6 +5,7 @@
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
+  background: #222;
 }
 nav{
   display: flex;
@@ -51,8 +52,8 @@ nav h2{
   height: 56vw;
 
   background-image: url("gambar/background.png");
-  background-size: 100% auto;
-  background-position: top center;
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 .content{
